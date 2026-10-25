@@ -16,7 +16,9 @@
 | ג׳ | ריל |
 | ה׳ | קרוסלה |
 | מוצ״ש | ריל (או קרוסלה כשאין חומר לריל) |
-כל הפרסומים ב-19:30 שעון ישראל. סנריו Make מס׳ 8167166 ("NeriaTech – פרסום אינסטגרם") קורא את `posts/YYYY-MM-DD.json` ומפרסם רק כש-`"approved": true`.
+כל הפרסומים ב-19:30 שעון ישראל. סנריו Make מס׳ 8167166 ("NeriaTech – פרסום אינסטגרם") רץ בימים א׳–ה׳ ובמוצ״ש, קורא את `posts/YYYY-MM-DD.json` ואת `stories/YYYY-MM-DD.json`, ומפרסם רק כש-`"approved": true`.
+
+**סטוריז** (3 בשבוע, 19:30): ב׳ – שאלה לקהל ("ענו לי בהודעה"; אין סקרים דרך ה-API), ד׳ – טיזר לריל של ג׳, מוצ״ש – טיזר לפוסט של אותו ערב. קובץ: `{"approved":false,"image_url":".../media/stories/YYYY-MM-DD.jpg"}`. תמונה JPEG ‏1080×1920 עם `tools/render_story.py`. הסטורי מתפרסם דרך HTTP + Graph API עם המפתח "NeriaTech IG Token" (Make key 272135).
 
 ## מקורות אמת
 - **לוח התוכן (נושאים וסטטוס):** https://claude.ai/artifact/Ah3XVgXkYmey3EkRtQS64M – אוסף `posts`, מזהה מסמך = תאריך. שדות: date, day, format (קרוסלה/ריל/סטורי), topic, status (רעיון / בהכנה / ממתין לאישור / מאושר / פורסם), note.
