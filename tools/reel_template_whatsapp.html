@@ -1,0 +1,82 @@
+<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><style>
+@font-face{font-family:H;src:url(heebo-hebrew-wght-normal.woff2) format('woff2');font-weight:100 900;unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}
+@font-face{font-family:H;src:url(heebo-latin-wght-normal.woff2) format('woff2');font-weight:100 900}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#070D1C;font-family:H,sans-serif;color:#EAF2FF}
+.stage{position:absolute;inset:0;overflow:hidden}
+.glow{position:absolute;width:1200px;height:1200px;border-radius:50%;background:radial-gradient(circle,rgba(46,134,255,.32),rgba(46,134,255,0) 65%);top:-400px;left:-420px}
+.glow2{position:absolute;width:1000px;height:1000px;border-radius:50%;background:radial-gradient(circle,rgba(46,134,255,.16),rgba(46,134,255,0) 65%);bottom:-380px;right:-360px}
+.layer{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;opacity:0}
+.hook .t{font-size:170px;font-weight:900;direction:ltr;color:#4D9BFF;letter-spacing:4px}
+.hook .s{font-size:72px;font-weight:700;margin-top:30px;line-height:1.25}
+.phone{position:absolute;left:90px;right:90px;top:250px;bottom:360px;border-radius:70px;background:#0B141A;border:6px solid #22324A;overflow:hidden;display:flex;flex-direction:column;opacity:0}
+.ph-top{background:#1F2C34;padding:46px 40px 30px;display:flex;align-items:center;gap:26px}
+.ph-av{width:96px;height:96px;border-radius:50%;background:linear-gradient(135deg,#F7A8C4,#C46BAE);display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:800;color:#fff}
+.ph-name{font-size:44px;font-weight:700;color:#E9EDEF}
+.ph-sub{font-size:30px;color:#8696A0;margin-top:4px}
+.ph-time{margin-inline-start:auto;font-size:34px;color:#8696A0;direction:ltr}
+.chat{flex:1;padding:40px 34px;display:flex;flex-direction:column;gap:22px;background:#0B141A;justify-content:flex-end;overflow:hidden}
+.m{max-width:78%;padding:22px 30px 16px;border-radius:30px;font-size:46px;line-height:1.35;opacity:0;transform:translateY(30px)}
+.m small{display:block;font-size:24px;color:#8696A0;margin-top:6px;direction:ltr;text-align:left}
+.in{align-self:flex-end;background:#202C33;color:#E9EDEF;border-top-left-radius:8px}
+.out{align-self:flex-start;background:#005C4B;color:#E9EDEF;border-top-right-radius:8px}
+.typing{align-self:flex-start;background:#005C4B;border-radius:30px;padding:26px 34px;display:flex;gap:12px;opacity:0}
+.typing i{width:18px;height:18px;border-radius:50%;background:#9FD9CB;display:block}
+.tag{position:absolute;top:120px;left:0;right:0;text-align:center;font-size:36px;color:#7F98C0;font-weight:500;opacity:0}
+.cap{position:absolute;bottom:200px;left:60px;right:60px;text-align:center;font-size:58px;font-weight:800;opacity:0;text-shadow:0 4px 24px rgba(0,0,0,.6)}
+.big{font-size:150px;font-weight:900;line-height:1.05}
+.accent{color:#4D9BFF}
+.end img{width:240px;height:240px;border-radius:50%;margin-bottom:60px}
+.end .h{font-size:100px;font-weight:900;line-height:1.1}
+.end .p{font-size:54px;color:#C5D5EE;margin-top:40px;line-height:1.4;padding:0 90px}
+.end .btn{margin-top:70px;background:#3D8BFF;color:#fff;font-size:58px;font-weight:800;padding:34px 70px;border-radius:30px}
+.end .u{margin-top:60px;font-size:46px;color:#7F98C0;direction:ltr}
+</style></head><body><div class="stage">
+<div class="glow"></div><div class="glow2"></div>
+
+<div class="layer hook" id="hook"><div class="t">02:13</div><div class="s">לקוחה שולחת הודעה לעסק.<br>כולם ישנים.</div></div>
+
+<div class="tag" id="tag">הדגמה · עסק דמיוני</div>
+<div class="phone" id="phone">
+ <div class="ph-top"><div class="ph-av">ל</div><div><div class="ph-name">סטודיו ליה · ציפורניים</div><div class="ph-sub" id="status">מחובר/ת</div></div><div class="ph-time">02:13</div></div>
+ <div class="chat">
+  <div class="m in" id="m1">היי, כמה עולה מניקור ג'ל? 🙈<small>02:13</small></div>
+  <div class="m out" id="m2">היי! 💅 מניקור ג'ל 120 ₪, לוקח כשעה. לשלוח לך מועדים פנויים?<small>02:13</small></div>
+  <div class="m in" id="m3">כן בבקשה<small>02:14</small></div>
+  <div class="m out" id="m4">יש מחר ב-10:00 או ב-14:30. מה מתאים לך?<small>02:14</small></div>
+  <div class="m in" id="m5">14:30 מעולה<small>02:14</small></div>
+  <div class="m out" id="m6">נקבע ✅ נשלחה לך תזכורת. נתראה מחר!<small>02:14</small></div>
+  <div class="typing" id="ty"><i></i><i></i><i></i></div>
+ </div>
+</div>
+<div class="cap" id="cap">עונה לבד, תוך שניות</div>
+
+<div class="layer" id="punch"><div class="big">העסק ישן.<br><span class="accent">הבוט לא.</span></div></div>
+
+<div class="layer end" id="end"><img src="logo.png" alt=""><div class="h">בוט וואטסאפ<br><span class="accent">לעסק שלך</span></div>
+<div class="p">עונה, קובע תורים ושולח תזכורות.<br>מסביב לשעון.</div><div class="btn">שלחו לי הודעה</div><div class="u">@neria.tech</div></div>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const clamp=x=>Math.max(0,Math.min(1,x));
+const ease=x=>1-Math.pow(1-clamp(x),3);
+function fade(t,a,b,d=0.35){ // visible between a and b with fades
+  return Math.min(ease((t-a)/d), ease((b-t)/d));
+}
+const msgs=[['m1',2.6],['m2',4.2],['m3',5.8],['m4',7.0],['m5',8.4],['m6',9.4]];
+const typing=[[3.3,4.2],[6.2,7.0],[8.8,9.4]];
+window.setT=function(t){
+  const h=fade(t,0,2.3); $('hook').style.opacity=h; $('hook').style.transform=`scale(${1+0.04*t})`;
+  const p=fade(t,2.2,11.0,0.4); $('phone').style.opacity=p; $('tag').style.opacity=p;
+  $('phone').style.transform=`translateY(${(1-ease((t-2.2)/0.5))*120}px)`;
+  for(const [id,at] of msgs){const e=$(id),k=ease((t-at)/0.3);e.style.opacity=k;e.style.transform=`translateY(${(1-k)*30}px)`;e.style.display=t<at-0.01?'none':'block';}
+  let ty=0;for(const [a,b] of typing){if(t>=a&&t<b)ty=1;}
+  $('ty').style.opacity=ty;$('ty').style.display=ty?'flex':'none';
+  $('status').textContent=ty?'מקליד/ה…':'מחובר/ת';
+  [...$('ty').children].forEach((d,i)=>d.style.transform=`translateY(${Math.sin(t*10+i*1.2)*6}px)`);
+  $('cap').style.opacity=fade(t,4.6,10.8,0.4);
+  const u=fade(t,11.0,13.4,0.3); $('punch').style.opacity=u; $('punch').style.transform=`scale(${0.94+0.06*ease((t-11)/0.5)})`;
+  const e=ease((t-13.4)/0.4); $('end').style.opacity=e; $('end').style.transform=`translateY(${(1-e)*40}px)`;
+};
+setT(0);
+</script></body></html>
