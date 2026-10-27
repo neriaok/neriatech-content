@@ -21,7 +21,7 @@
 **סטוריז** (3 בשבוע, 19:30): ב׳ – שאלה לקהל ("ענו לי בהודעה"; אין סקרים דרך ה-API), ד׳ – טיזר לריל של ג׳, מוצ״ש – טיזר לפוסט של אותו ערב. קובץ: `{"approved":false,"image_url":".../media/stories/YYYY-MM-DD.jpg"}`. תמונה JPEG ‏1080×1920 עם `tools/render_story.py`. הסטורי מתפרסם דרך HTTP + Graph API עם המפתח "NeriaTech IG Token" (Make key 272135).
 
 ## מקורות אמת
-- **לוח התוכן (נושאים וסטטוס):** https://claude.ai/artifact/Ah3XVgXkYmey3EkRtQS64M – אוסף `posts`, מזהה מסמך = תאריך. שדות: date, day, format (קרוסלה/ריל/סטורי), topic, status (רעיון / בהכנה / ממתין לאישור / מאושר / פורסם), note.
+- **לוח התוכן (נושאים וסטטוס):** https://claude.ai/artifact/Ah3XVgXkYmey3EkRtQS64M – אוסף `posts`, מזהה מסמך = תאריך. שדות: date, day, format (קרוסלה/ריל/סטורי), topic, status (רעיון / בהכנה / ממתין לאישור / מאושר / פורסם), note. **סטוריז נרשמים גם הם בלוח**, עם מזהה מסמך `story-YYYY-MM-DD` ו-format "סטורי".
 - **נוהל ניהול החשבון:** https://claude.ai/artifact/VgR2ucMS5A2JQj6vB8Kb7W
 - **הריפו הזה:** קבצי פוסטים ומדיה ציבוריים.
 - **תיק העבודות של נריה (פרטי):** באותו לוח תוכן, אוסף `portfolio`. כל מסמך = עבודה אמיתית: title, service (אתר / אפליקציה / מערכת / אוטומציה / AI), client_type, problem, solution, results, can_publish (true/false), assets (תיאור), added_at. **לא מעתיקים את התוכן הזה לריפו הציבורי** מעבר למה שנכנס לפוסט מאושר.
