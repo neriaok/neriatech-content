@@ -1,0 +1,39 @@
+{
+  "type": "carousel",
+  "approved": false,
+  "files": [
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-07-bot-case-study/01.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-07-bot-case-study/02.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-07-bot-case-study/03.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-07-bot-case-study/04.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-07-bot-case-study/05.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-07-bot-case-study/06.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-07-bot-case-study/07.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-07-bot-case-study/08.jpg"
+    }
+  ],
+  "caption": "מקרה בוחן מהבית: הבוט שעונה לכל תגובה בחשבון הזה.\n\nהבעיה: לענות ידנית לכל מי שמגיב \"שלחו לי\" לוקח זמן, ותמיד מישהו מתפספס.\nהפתרון: בוט שמגיב תוך שניות בפרטי, בודק מעקב ושולח את הקישור, עם דף ניהול לתרחישים ולמשפך.\nמאחורי הקלעים: 4 שלבים, 74 בדיקות אוטומטיות, רק API רשמי של Meta.\n\nרוצים אוטומציה כזו לעסק שלכם? שלחו לי הודעה.\n\n#אוטומציה #בוט #מקרה_בוחן #עסקים_קטנים #neriatech"
+}
