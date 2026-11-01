@@ -42,6 +42,7 @@
 - `render_carousel.py <dir> <dir>/out <slides.json>` – מרנדר שקפים. בתיקייה צריכים להיות `assets/*` (פונטים + logo.png). ראו `slides_example.json` (kind: cover / item / cta, אפשר `btn`).
 - `reel_template_whatsapp.html` + `render_reel.py <html> <frames_dir> <sec> 15` ואז ffmpeg (ראו למטה) – ריל מונפש. הפונקציה `setT(t)` מציירת כל פריים.
 - `build_week_preview.py <repo> tools/assets/logo.png <out.html> <dates...>` – קובץ תצוגה מקדימה בסגנון אינסטגרם לכל פוסטי השבוע.
+- **כל ריל חייב שמע אמיתי.** אינסטגרם לא מאפשר להוסיף מוזיקה לריל שכבר פורסם, וספריית המוזיקה של אינסטגרם לא זמינה דרך ה-API. לרילס מונפשים: `python3 tools/make_music.py <שניות> music.wav [bpm]` (מוזיקה מקורית בלי זכויות יוצרים), ובקידוד להשתמש ב-`-i music.wav` במקום `anullsrc`. לבדוק עם volumedetect ש-mean_volume גבוה מ-‎-30dB.
 - קידוד ריל:
   `ffmpeg -framerate 15 -i frames/f%04d.jpg -f lavfi -i anullsrc=r=48000:cl=stereo -shortest -r 30 -c:v libx264 -profile:v high -pix_fmt yuv420p -b:v 4M -maxrate 4.5M -bufsize 9M -g 30 -c:a aac -b:a 128k -ar 48000 -movflags +faststart reel.mp4`
 
