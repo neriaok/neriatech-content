@@ -1,0 +1,39 @@
+{
+  "type": "carousel",
+  "approved": false,
+  "files": [
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-26-automation-glossary/01.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-26-automation-glossary/02.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-26-automation-glossary/03.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-26-automation-glossary/04.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-26-automation-glossary/05.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-26-automation-glossary/06.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-26-automation-glossary/07.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-11-26-automation-glossary/08.jpg"
+    }
+  ],
+  "caption": "טריגר, וובהוק, API… מרגיש כמו שפה זרה?\n\nהכנתי מילון קצר: 6 מושגים שתשמעו מכל מי שבונה אוטומציות, בשפה פשוטה ועם דוגמה לכל אחד. שמרו את הפוסט לפעם הבאה שמישהו יזרוק לכם מילה כזו בשיחה.\n\nאיזה מושג עוד מבלבל אתכם? כתבו בתגובות ואסביר אותו 👇\n\n#אוטומציה #עסקים_קטנים #טכנולוגיה #יזמות #neriatech"
+}
