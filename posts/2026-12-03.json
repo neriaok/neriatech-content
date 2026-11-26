@@ -1,0 +1,36 @@
+{
+  "type": "carousel",
+  "approved": false,
+  "files": [
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-12-03-bot-first-message/01.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-12-03-bot-first-message/02.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-12-03-bot-first-message/03.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-12-03-bot-first-message/04.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-12-03-bot-first-message/05.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-12-03-bot-first-message/06.jpg"
+    },
+    {
+      "media_type": "IMAGE",
+      "image_url": "https://raw.githubusercontent.com/neriaok/neriatech-content/main/media/2026-12-03-bot-first-message/07.jpg"
+    }
+  ],
+  "caption": "הגבתם מילה, קיבלתם הודעה בפרטי. אבל לחצתם על הכפתור?\n\nההודעה הראשונה של הבוט היא הרגע שבו אנשים מחליטים אם להמשיך. 5 כללים שאני שומר עליהם בכל תרחיש: להזכיר מה ביקשו, לכתוב קצר, כפתור עם פועל ברור, לבקש מעקב בנימוס, ולמסור מיד.\n\nרוצים לראות את זה בפעולה? הבוט בחשבון הזה עובד בדיוק ככה: הגיבו \"בוט\" על הפוסט ותקבלו בפרטי מדריך ל-5 אוטומציות 👇 ורוצים בוט כזה לחשבון שלכם? שלחו לי הודעה.\n\n#בוט_לאינסטגרם #אוטומציה #שיווק_באינסטגרם #עסקים_קטנים #neriatech",
+  "fb_caption": "הגבתם מילה, קיבלתם הודעה בפרטי. אבל לחצתם על הכפתור?\n\nההודעה הראשונה של הבוט היא הרגע שבו אנשים מחליטים אם להמשיך. 5 כללים שאני שומר עליהם בכל תרחיש: להזכיר מה ביקשו, לכתוב קצר, כפתור עם פועל ברור, לבקש מעקב בנימוס, ולמסור מיד.\n\nרוצים בוט כזה לחשבון האינסטגרם שלכם? שלחו לי הודעה 👇"
+}
